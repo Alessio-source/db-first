@@ -1,0 +1,7 @@
+nome database: macchine_usate
+
+marca - VAR_CHAR(30) NULL
+modello - VAR_CHAR(50) NULL
+targa - PRIMARY KEY VAR_CHAR(28) NULL UNIQUE
+colore - VAR_CHAR(10) NULL
+prezzo - FLOAT(8,2) NULL
